@@ -72,10 +72,13 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 header {
-  margin-left: 80px;
+  padding-left: 80px;
   padding-right: 150px;
   display: inline-block;
   position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 1;
 }
 .menu {
   display: inline;
@@ -96,6 +99,7 @@ header {
 .fondo {
   position: relative;
   top: 100px;
+  width: 100%;
 }
 .seccion1 {
   margin-bottom: 0;
@@ -113,16 +117,83 @@ header {
   padding: 10px;
   display: inline-block;
 }
+.verde a {
+  color: #fff;
+}
 .bigger {
   font-size: 50px;
 }
+/*empieza section 2*/
 .seccion2 {
   margin-top: 100px;
   background-color: #F17C72;
   color: white;
-}
-.texto2 {
   text-align: center;
+  padding-bottom: 100px;
+}
+.texto2 {  
   color: white;
   padding-top: 40px;
+  padding-bottom: 90px;
+}
+.texto2 h2 {
+  font-size: 35px;
+}
+.columna1 {
+  display: inline-block;
+}
+.columna1 img, .columna2 img, .columna3 img {
+  width: 200px;
+  height: 200px;
+}
+.columna2 {
+  display: inline-block;
+  padding: 0 150px;
+}
+.columna3 {
+  display: inline-block;
+}
+
+h5 {
+  margin-bottom: 0;
+}
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*empieza section 3*/
+.work {
+  text-align: center;
+  margin-top: 80px;
+}
+.work h2 {
+  font-size: 35px;
+}
+.work h4 {
+  color: #444444;
+}
+.pc {
+  width: 900px;
+  height: 700px;
+  margin-top: 50px;
+}
+.imagenes img {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+}
+.imagenes p {
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #444444
+}
+.imagenes {
+  column-count: 3;
+  padding: 10px 100px;
+}
+footer {
+  background: #3B3B49;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
 }
